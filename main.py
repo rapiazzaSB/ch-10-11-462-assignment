@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET"])
 def home():
-    return 'this is a API service for MN Service code details'
+    return 'API service, ch 10&11 assignment, hoping this will work'
 
 @app.route('/preview', methods=["GET"])
 def preview():
